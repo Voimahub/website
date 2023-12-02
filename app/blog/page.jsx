@@ -2,7 +2,7 @@
 
 import ConstructionAnimation from "../../public/construction.json";
 import Lottie from "lottie-react";
-import { InriaBold, MontserratBold } from "../(fonts)/font";
+import { InriaBold, MontserratBold, SpaceBold } from "../(fonts)/font";
 import PearlAdjavonPic from "../../public/PearlAdjavonVolunteer.jpg";
 import Image from "next/image";
 
@@ -15,6 +15,7 @@ export default function page() {
         alt="PearlAdjavon"
         className="h-[340px] w-[340px] rounded-lg aspect-square"
       />
+      <h1 className={`${SpaceBold.className}`}>Pearl Adjavon</h1>
       <div
         className={`w-full sm:w-1/2 flex flex-col gap-1 ${InriaBold.className} `}
       >
