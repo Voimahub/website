@@ -86,7 +86,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className=" flex justify-between items-center gap-8 p-10">
+      <div className="w-full flex justify-between items-center sm:gap-8 p-2 ">
         <div className=" flex-1 flex flex-col gap-4 justify-between items-center ">
           <Image src={Mission} alt="our mission photo" />
           <h1 className=" text-2xl">MISSION</h1>
@@ -109,7 +109,7 @@ export default function Home() {
           <Image
             src={PhoneApp}
             alt="Phone app"
-            className=" h-full w-full flex-1"
+            className=" h-full  flex-1 w-40"
           />
           <h1
             className={`text-[#f52f2f] font-black text-xl flex-1 ${MontserratBold.className}`}
@@ -122,10 +122,14 @@ export default function Home() {
           <h1 className=" font-black">STAY TUNED WITH US</h1>
         </div>
       </div>
-      <div className=" flex p-4">
-        <div className=" flex flex-col h-[600px] border-2 border-gray-500">
+      <div className="w-full flex flex-col sm:flex-row p-4">
+        <div className=" flex-1 flex flex-col  border-2 border-gray-500">
           <div className=" bg-white">
-            <Image src={DescriptionImage} alt="Description Image " />
+            <Image
+              src={DescriptionImage}
+              className=" flex-1 "
+              alt="Description Image "
+            />
           </div>
           <div className=" bg-white flex flex-col relative">
             <div className=" h-[100px] w-[100px] rounded-full bg-black text-white flex justify-center items-center  place-self-center relative bottom-10">
@@ -138,7 +142,9 @@ export default function Home() {
             </div>
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
-            <h1 className=" text-4xl text-[#f52f2f]">WHO ARE WE</h1>
+            <h1 className=" text-center text-2xl sm:text-4xl text-[#f52f2f]">
+              WHO ARE WE
+            </h1>
             <h1 className="mt-4">
               Eiusmod do dolore velit laborum. Laboris id ea id labore sit
               exercitation elit tempor aliquip reprehenderit dolor labore enim.
@@ -146,9 +152,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" flex flex-col h-[600px] border-2 border-gray-500">
+        <div className=" flex-1 flex flex-col  border-2 border-gray-500">
           <div className=" bg-white">
-            <Image src={DescriptionImage} alt="Description Image " />
+            <Image
+              src={DescriptionImage}
+              className=" flex-1"
+              alt="Description Image "
+            />
           </div>
           <div className=" bg-white flex flex-col relative">
             <div className=" h-[100px] w-[100px] rounded-full bg-black text-white flex justify-center items-center  place-self-center relative bottom-10">
@@ -161,7 +171,9 @@ export default function Home() {
             </div>
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
-            <h1 className=" text-4xl text-[#f52f2f]">OUR WHY</h1>
+            <h1 className="  text-center text-2xl sm:text-4xl text-[#f52f2f]">
+              OUR WHY
+            </h1>
             <h1 className="mt-4">
               Eiusmod do dolore velit laborum. Laboris id ea id labore sit
               exercitation elit tempor aliquip reprehenderit dolor labore enim.{" "}
@@ -169,9 +181,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" flex flex-col h-[600px] border-2 border-gray-500">
+        <div className=" flex-1 flex flex-col  border-2 border-gray-500">
           <div className=" bg-white">
-            <Image src={DescriptionImage} alt="Description Image " />
+            <Image
+              src={DescriptionImage}
+              className="  flex-1 "
+              alt="Description Image "
+            />
           </div>
           <div className=" bg-white flex flex-col relative">
             <div className=" h-[100px] w-[100px] rounded-full bg-black text-white flex justify-center items-center  place-self-center relative bottom-10">
@@ -184,7 +200,9 @@ export default function Home() {
             </div>
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
-            <h1 className=" text-4xl text-[#f52f2f]">OUR HOW</h1>
+            <h1 className=" text-center text-2xl sm:text-4xl text-[#f52f2f]">
+              OUR HOW
+            </h1>
             <h1 className="mt-4">
               Eiusmod do dolore velit laborum. Laboris id ea id labore sit
               exercitation elit tempor aliquip reprehenderit dolor labore enim.{" "}
@@ -208,7 +226,7 @@ export default function Home() {
             deserunt cupidatat veniam in sunt incididunt non dolor.
           </p>
         </div>
-        <div className=" relative -top-28">
+        <div className="">
           <div className=" text-white grid grid-cols-2 sm:grid-cols-4 gap-2 p-4 ">
             <HelpTiles
               title={"MAKE A DIFFERENCE"}
@@ -293,7 +311,7 @@ export default function Home() {
           <h1 className="  text-5xl text-[#f52f2f] p-2 border-b-2 border-[#f52f2f]  font-extrabold text-center">
             OUR IMPACT
           </h1>
-          <div className=" w-full flex justify-between items-center mt-4 gap-8 px-20 pt-10 ">
+          <div className=" w-full flex justify-between items-center mt-4 gap-8 p-2  pt-10 ">
             <div className=" flex flex-col justify-center items-center gap-2s font-bold">
               <Image src={Volunteer} alt="volunteer photo" />
               <h1 className="text-[#f52f2f] text-3xl">500</h1>
