@@ -21,21 +21,23 @@ import { LobsterRegular } from "./(fonts)/font";
 export default function Home() {
   return (
     <main className="  min-h-screen">
-      <div className=" h-[400px] relative flex flex-col">
+      <div className=" relative flex flex-col">
         <div className="h-full bg-red-300 flex justify-center items-center">
           <Image
             src={HomeBackgroundImage}
             alt="HomeBackgroundImage"
-            className=" h-full"
+            className=" aspect-auto"
           />
         </div>
         <div className=" flex justify-center items-center bg-black bg-opacity-50 w-full absolute bottom-0">
-          <h1 className={` p-4 text-4xl text-white ${SpaceBold.className}`}>
+          <h1
+            className={` p-1 sm:p-4 text-base sm:text-4xl text-white ${SpaceBold.className}`}
+          >
             JOIN US IN MAKING THE WORLD A BETTER PLACE
           </h1>
         </div>
       </div>
-      <div className=" grid justify-center items-center grid-cols-1 sm:grid-cols-3 ">
+      {/* <div className=" grid justify-center items-center grid-cols-1 sm:grid-cols-3 ">
         <BelowHomeImage
           title={"Lorem Ipsum"}
           description={
@@ -57,11 +59,11 @@ export default function Home() {
           }
           style={"bg-[#f52f2f]"}
         />
-      </div>
-      <div className=" bg-white flex flex-col sm:flex-row gap-8 py-4 px-8">
-        <div className=" flex-1 flex flex-col gap-4">
+      </div> */}
+      {/* <div className=" bg-white flex flex-col sm:flex-row gap-8 py-4 px-8">
+        <div className=" flex-1 flex flex-col gap-2">
           <h1
-            className={` text-[#f52f2f] text-3xl sm:text-5xl font-bold underline`}
+            className={` text-[#f52f2f] text-2xl sm:text-5xl font-bold underline`}
           >
             WELCOME TO <span className="text-black">VOIMA</span>
           </h1>
@@ -85,8 +87,8 @@ export default function Home() {
             className=" absolute "
           />
         </div>
-      </div>
-      <div className="w-full flex justify-between items-center sm:gap-8 p-2 ">
+      </div> */}
+      {/* <div className="w-full flex justify-between items-center sm:gap-8 p-2 ">
         <div className=" flex-1 flex flex-col gap-4 justify-between items-center ">
           <Image src={Mission} alt="our mission photo" />
           <h1 className=" text-2xl">MISSION</h1>
@@ -121,7 +123,7 @@ export default function Home() {
           </h1>
           <h1 className=" font-black">STAY TUNED WITH US</h1>
         </div>
-      </div>
+      </div> */}
       <div className="w-full flex flex-col sm:flex-row p-4">
         <div className=" flex-1 flex flex-col  border-2 border-gray-500">
           <div className=" bg-white">
@@ -143,11 +145,13 @@ export default function Home() {
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
             <h1 className=" text-center text-2xl sm:text-4xl text-[#f52f2f]">
-              WHO ARE WE
+              WHAT IS VOIMA?
             </h1>
             <h1 className="mt-4">
-              Eiusmod do dolore velit laborum. Laboris id ea id labore sit
-              exercitation elit tempor aliquip reprehenderit dolor labore enim.
+              We are a youth-led non-profit organisation which aims to reduce
+              the number of babies being born with Sickle Cell Disease while
+              empowering those living with the condition through education,
+              screening, advocacy and cutting-edge innovation.
             </h1>
           </div>
         </div>
@@ -172,11 +176,12 @@ export default function Home() {
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
             <h1 className="  text-center text-2xl sm:text-4xl text-[#f52f2f]">
-              OUR WHY
+              OUR APPROACH
             </h1>
             <h1 className="mt-4">
-              Eiusmod do dolore velit laborum. Laboris id ea id labore sit
-              exercitation elit tempor aliquip reprehenderit dolor labore enim.{" "}
+              From research to prevention to cure, we apply multifaceted
+              approaches to ensure that we are tackling the disease at all
+              levels to reduce morbidity and mortality rates.
             </h1>
           </div>
         </div>
@@ -201,23 +206,25 @@ export default function Home() {
           </div>
           <div className=" flex-1 flex flex-col items-center p-4 ">
             <h1 className=" text-center text-2xl sm:text-4xl text-[#f52f2f]">
-              OUR HOW
+              WHY NOW?
             </h1>
             <h1 className="mt-4">
-              Eiusmod do dolore velit laborum. Laboris id ea id labore sit
-              exercitation elit tempor aliquip reprehenderit dolor labore enim.{" "}
+              The global number of newborns with SCD is estimated to increase to
+              abou 400,000 by the year 2050 with 85% expected to be born in
+              sub-Saharan Africa (Piel et al., 2013a) but there are limited
+              initiatives to curb it.
             </h1>
           </div>
         </div>
       </div>
       <div className=" flex flex-col bg-white relative">
-        <div className=" help-us bg-slate-500 py-10 px-6 flex flex-col gap-8 h-[400px] justify-center items-center relative">
+        {/* <div className=" help-us bg-slate-500 py-10 px-6 flex flex-col gap-8 h-[400px] justify-center items-center relative">
           <Image
             src={HelpUsPicture}
             alt="helpuspicture"
             className="absolute h-full "
           />
-          <h1 className=" text-white  text-4xl font-extrabold p-2 z-10 border-b-2 border-white">
+          <h1 className=" text-white text-2xl sm:text-4xl font-extrabold p-2 z-10 border-b-2 border-white">
             HOW CAN YOU HELP US
           </h1>
           <p className="  w-4/5 text-white font-semibold z-10">
@@ -225,9 +232,9 @@ export default function Home() {
             cupidatat aliqua ipsum ea aliqua voluptate qui. Dolor enim mollit
             deserunt cupidatat veniam in sunt incididunt non dolor.
           </p>
-        </div>
-        <div className="">
-          <div className=" text-white grid grid-cols-2 sm:grid-cols-4 gap-2 p-4 ">
+        </div> */}
+        {/* <div className=""> */}
+        {/* <div className=" text-white grid grid-cols-2 sm:grid-cols-4 gap-2 p-4 ">
             <HelpTiles
               title={"MAKE A DIFFERENCE"}
               description={
@@ -260,11 +267,11 @@ export default function Home() {
               buttonTitle={"JOIN US"}
               style={" border-2 border-gray-500 rounded-lg"}
             />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <div className=" bg-[#f52f2f] p-4 text-white flex flex-col justify-center items-center">
           <h1
-            className={`font-black text-center text-3xl ${MontserratBold.className}`}
+            className={`font-black text-center text-2xl sm:text-3xl ${MontserratBold.className}`}
           >
             Global Statistics
           </h1>
@@ -295,7 +302,7 @@ export default function Home() {
             />
 
             <h1
-              className={` text-center text-2xl text-white font-extrabold ${MontserratBold.className}`}
+              className={` text-center text-2xl sm:text-3xl text-white font-extrabold ${MontserratBold.className}`}
             >
               GREAT NEWS!
             </h1>
@@ -308,24 +315,38 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <h1 className="  text-5xl text-[#f52f2f] p-2 border-b-2 border-[#f52f2f]  font-extrabold text-center">
+          <h1 className=" text-2xl sm:text-5xl text-[#f52f2f] p-2 border-b-2 border-[#f52f2f]  font-extrabold text-center">
             OUR IMPACT
           </h1>
-          <div className=" w-full flex justify-between items-center mt-4 gap-8 p-2  pt-10 ">
+          <div className=" w-full flex flex-col sm:flex-row justify-between items-center mt-4 gap-8 p-2  pt-10 ">
             <div className=" flex flex-col justify-center items-center gap-2s font-bold">
-              <Image src={Volunteer} alt="volunteer photo" />
-              <h1 className="text-[#f52f2f] text-3xl">500</h1>
-              <h1 className=" text-xl">Volunteers reached</h1>
+              <Image
+                src={Volunteer}
+                alt="volunteer photo"
+                className="w-1/2 h-1/2 sm:w-full sm:h-full"
+              />
+              <h1 className="text-[#f52f2f] text-2xl sm:text-3xl">500</h1>
+              <h1 className=" text-lg sm:text-2xl">Volunteers reached</h1>
             </div>
             <div className=" flex flex-col justify-center items-center gap-2 font-bold">
-              <Image src={Location} alt="location photo" />
-              <h1 className="text-[#f52f2f] text-3xl">10</h1>
-              <h1 className=" text-xl">Regions</h1>
+              <Image
+                src={Location}
+                alt="location photo"
+                className="w-1/2 h-1/2 sm:w-full sm:h-full"
+              />
+              <h1 className="text-[#f52f2f] text-2xl sm:text-3xl">10</h1>
+              <h1 className=" text-lg sm:text-2xl">Regions</h1>
             </div>
             <div className=" flex flex-col justify-center items-center gap-2 font-bold">
-              <Image src={Community} alt="volunteer photo" />
-              <h1 className="text-[#f52f2f] text-3xl">2000</h1>
-              <h1 className=" text-xl">Community members reached</h1>
+              <Image
+                src={Community}
+                alt="volunteer photo"
+                className="w-1/2 h-1/2 sm:w-full sm:h-full"
+              />
+              <h1 className="text-[#f52f2f] text-2xl sm:text-3xl">2000</h1>
+              <h1 className=" text-lg sm:text-2xl">
+                Community members reached
+              </h1>
             </div>
           </div>
         </div>

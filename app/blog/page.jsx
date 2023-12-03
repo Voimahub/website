@@ -8,16 +8,16 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="min-h-screen  flex flex-col gap-2 items-center p-2">
+    <div className="min-h-screen  flex flex-col gap-2 items-center p-2 bg-[#f52f2f]">
       {/* <Lottie animationData={ConstructionAnimation} loop={true} /> */}
       <Image
         src={PearlAdjavonPic}
         alt="PearlAdjavon"
         className="h-[340px] w-[340px] rounded-lg aspect-square"
       />
-      <h1 className={`${SpaceBold.className}`}>Pearl Adjavon</h1>
+      <h1 className={`${SpaceBold.className} text-white`}>~ Pearl Adjavon</h1>
       <div
-        className={`w-full sm:w-1/2 flex flex-col gap-1 ${InriaBold.className} `}
+        className={`w-full sm:w-1/2 bg-slate-200 p-4 rounded-lg flex flex-col gap-1 ${InriaBold.className} `}
       >
         <p>
           I entered Senior High School with such shallow knowledge on how much

@@ -1,7 +1,7 @@
 "use client";
 
-import ConstructionAnimation from "../../public/construction.json";
-import Lottie from "lottie-react";
+// import ConstructionAnimation from "../../public/construction.json";
+// import Lottie from "lottie-react";
 import { MontserratBold } from "../(fonts)/font";
 
 export default function page() {
@@ -15,12 +15,12 @@ export default function page() {
           Voima App
         </h1>
         <div className=" flex flex-col mt-2 gap-4 justify-center  bg-slate-200 p-4 rounded-lg font-bold">
-          <p>
+          <p className=" text-base">
             The Voima App is a comprehensive mobile application development we
             aim to develop to imporove the health and general well being of
             sickle cell patients in order to reduce mortality rate.
           </p>
-          <p>
+          <p className=" text-base">
             Through the app, patients can have consultations from phyisicians
             across the world at no cost, bringing care to our patients when they
             most need it. Also registered on the app will be professionals like
@@ -29,7 +29,7 @@ export default function page() {
             psychological and emotional burdens people with SCD endure from all
             the death scares and the stigma from society.
           </p>
-          <p>
+          <p className=" text-base">
             The app will also contain other unique features such as Symptom
             Predictor, AI-driven personal trend analyser, Voima Blood bank,
             community support forums, Medication reminder, and many more!
@@ -44,7 +44,7 @@ export default function page() {
           Tours!
         </h1>
         <div className=" flex flex-col mt-2 gap-4 justify-center  bg-slate-200 p-4 rounded-lg font-bold">
-          <p>
+          <p className=" text-base">
             At Voima, we are dedicated to addressing the issue at its core. Our
             approach goes beyond simply delivering accessible healthcare to
             sickle cell patients. We also prioritize screening the younger
@@ -52,7 +52,7 @@ export default function page() {
             them about the condition, and empower them to make informed
             decisions when choosing their partners.
           </p>
-          <p>
+          <p className=" text-base">
             By utilising our innovative Voima vans, our goal is to extend our
             services to every community across the country. Join us on our
             mission to make a difference.
@@ -67,7 +67,7 @@ export default function page() {
           Blood Drive!
         </h1>
         <div className=" flex flex-col mt-2 gap-4 justify-center  bg-slate-200 p-4 rounded-lg font-bold">
-          <p>
+          <p className=" text-base">
             Sickle Cell Disease is a genetic condition that affects teh shape
             and function of red blood cells, leading o severe pain, anaemia, and
             other complications. Patients often require frequent blood
@@ -75,7 +75,7 @@ export default function page() {
             of life. However, the availbility of compatible and sufficient blood
             is a constant challenge for both patients and healthcare providers.
           </p>
-          <p>
+          <p className=" text-base">
             Voima, understanding the gravity of this situation, has taken
             proactive measures to address the pressing need for blood among
             Sickle Cell patients. By organizing blood drives, Voima mobilizes

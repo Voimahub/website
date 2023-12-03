@@ -146,7 +146,7 @@ export const TeamMembersData = {
       firstname: "Isaac",
       role: "Media Team",
       description:
-        "I'm Isaac Nudanu, a medical student in University of Health and ALlied Sciences. I'm a member of the media team here at Voima. I've always been fascinated about helping my community, friends and all who need my help. With my skills as a graphic designer and editor, I'm poised to put them to dilligent use in a collective ambition to build a sickle-cell free community! That's what we believe and stand for here at Voima! I believe in just that!",
+        "I'm Isaac Nudanu, a medical student in University of Health and Allied Sciences. I'm a member of the media team here at Voima. I've always been fascinated about helping my community, friends and all who need my help. With my skills as a graphic designer and editor, I'm poised to put them to dilligent use in a collective ambition to build a sickle-cell free community! That's what we believe and stand for here at Voima! I believe in just that!",
       linkedin: "",
       instagram: "https://instagram/isaacish_enala",
       twitter: "https://twitter/isaacnudanuenala",

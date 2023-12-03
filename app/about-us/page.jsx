@@ -61,14 +61,16 @@ export default function page() {
         className={` bg-[#f52f2f] p-2 text-white text-lg flex flex-col justify-center items-center ${InriaBold.className} `}
       >
         <h1
-          className={` text-3xl self-start ${SpaceBold.className}`}
+          className={`text-2xl sm:text-3xl self-start ${SpaceBold.className}`}
           id="our-story"
         >
           Our Story
         </h1>
-        <h1 className=" self-start">Get to know our how we came about</h1>
+        <h1 className=" self-start text-base">
+          Get to know our how we came about
+        </h1>
         <div className=" bg-slate-200 p-4 rounded-2xl flex flex-col gap-4 justify-center items-center sm:w-1/2  text-black">
-          <p className="text-center ">
+          <p className="text-center text-base ">
             In Junior High School, I lost one of my cherished friends and
             colleague EliJa,a few days before our final exams, BECE, due to
             complications from Sickle Cell Disease(SCD). In my neighbourhood,
@@ -78,7 +80,7 @@ export default function page() {
             know who have suffered or lost their lives due to SCD. This is what
             brought us together, what motivates and keeps us awake every night.
           </p>
-          <p className="text-center">
+          <p className="text-center text-base">
             SCD continues to pose a major global public health concern,
             particularly in Sub-Saharan Africa. In Ghana alone, around
             15,000(2%) of newborns are diagnosed with SCD every year,
@@ -96,7 +98,7 @@ export default function page() {
         <h1 className={` text-2xl text-white ${SpaceBold.className}`}>
           Meet the team
         </h1>
-        <h1 className="text-white font-bold">
+        <h1 className="text-white text-base font-bold">
           Get to know the awesome people behind Voima
         </h1>
         <div className="mt-4 h-full w-full">
@@ -120,7 +122,9 @@ export default function page() {
               ))}
             </div>
             {/* <Carousel imageList={TeamMembers} /> */}
-            <h1 className={` m-4 text-white text-2xl ${SpaceBold.className}`}>
+            <h1
+              className={` my-4 text-white text-xl  sm:text-2xl ${SpaceBold.className}`}
+            >
               Development Team
             </h1>
 
@@ -143,7 +147,9 @@ export default function page() {
                 </div>
               ))}
             </Slider>
-            <h1 className={` m-4 text-white text-2xl  ${SpaceBold.className}`}>
+            <h1
+              className={` my-4 text-white text-xl sm:text-2xl  ${SpaceBold.className}`}
+            >
               Research and Creative Team
             </h1>
             <Slider {...settings}>
@@ -165,7 +171,9 @@ export default function page() {
                 </div>
               ))}
             </Slider>
-            <h1 className={` m-4 text-white text-2xl  ${SpaceBold.className}`}>
+            <h1
+              className={` my-4 text-white text-xl  sm:text-2xl  ${SpaceBold.className}`}
+            >
               Media Team
             </h1>
             {/* <Slider {...settings}> */}

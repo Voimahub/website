@@ -25,26 +25,26 @@ export default function Header() {
       <div className=" bg-gray-300 flex justify-end items-center gap-4 p-1">
         <div className="flex">
           <Phone />
-          <h1>+233206916432</h1>
+          <h1 className="text-sm sm:text-base">+233206916432</h1>
         </div>
         <div className="flex">
           <Email />
-          <h1>voimagh@gmail.com</h1>
+          <h1 className="text-sm sm:text-base">voimagh@gmail.com</h1>
         </div>
       </div>
       <div className=" flex justify-between items-center bg-white p-2">
         <div className=" flex flex-col gap-2 justify-between items-center w-full h-full md:flex-row">
-          <div className=" flex-1 flex flex-col gap-4 lg:flex-row justify-start items-center">
+          <div className=" flex-1 flex flex-col gap-2 lg:flex-row justify-start items-center">
             {/* <div className=" flex justify-center items-center"> */}
             <Link
               href={"/"}
-              className={`${LobsterRegular.className} text-6xl text-[#f52f2f]`}
+              className={`${LobsterRegular.className} text-3xl sm:text-6xl text-[#f52f2f]`}
             >
               Voima
             </Link>
             {/* </div> */}
             {/* <div> */}
-            <h1 className="font-bold text-lg text-center">
+            <h1 className="font-bold sm:text-lg text-center">
               Building a Sickle Cell Free Community!
             </h1>
             {/* </div> */}
@@ -58,14 +58,14 @@ export default function Header() {
               <input
                 type="text"
                 placeholder="Search"
-                className={`p-2 rounded-3xl flex-1 border-none outline-none ${MontserratBold.className}`}
+                className={`p-1 rounded-3xl flex-1 border-none outline-none ${MontserratBold.className} text-sm sm:text-base`}
               />
               <Search />
             </div>
             <div className="">
               <Link
                 href={"/donate"}
-                className={`p-2 bg-black w-full text-white  text-center rounded-3xl ${MontserratBold.className}`}
+                className={`p-2 bg-black w-full text-white  text-center rounded-3xl ${MontserratBold.className} text-sm sm:text-base`}
               >
                 DONATE
               </Link>
@@ -75,7 +75,7 @@ export default function Header() {
       </div>
 
       <div
-        className={`w-full bg-[#f52f2f] flex justify-center items-center gap-8 text-center text-white text-lg border-b-2 border-white p-2  ${SpaceBold.className}`}
+        className={`w-full bg-[#f52f2f] flex justify-center items-center gap-8 text-center text-white text-sm sm:text-lg border-b-2 border-white p-2  ${SpaceBold.className}`}
       >
         <div
           className={`${pathname === "/" && "bg-black"}  h-full relative`}
@@ -98,7 +98,7 @@ export default function Header() {
         >
           <Link href={"/about-us"}>ABOUT US</Link>
           {dropdown === "about-us" && (
-            <div className=" bg-slate-900 bg-opacity-50 absolute top-full left-2/3 flex flex-col w-max">
+            <div className=" bg-slate-900 bg-opacity-70 absolute top-full left-2/3 flex flex-col w-max">
               <Link
                 href={"/about-us#our-story"}
                 className=" border-b-2 border-white py-2 px-6 text-center"
@@ -133,7 +133,7 @@ export default function Header() {
         >
           <Link href={"/our-project"}>OUR PROJECT</Link>{" "}
           {dropdown === "our-project" && (
-            <div className=" bg-slate-900 bg-opacity-50 absolute top-full right-1/2  sm:left-1/2 flex flex-col w-max">
+            <div className=" bg-slate-900 bg-opacity-70 absolute top-full right-1/2  sm:left-1/2 flex flex-col w-max">
               <Link
                 href={"/our-project#app"}
                 className=" border-b-2 border-white py-2 px-6 text-center"
@@ -174,7 +174,7 @@ export default function Header() {
         >
           <Link href={"/blog"}>BLOG</Link>
           {dropdown === "blog" && (
-            <div className=" bg-slate-900 bg-opacity-50 absolute top-full right-1/2 sm:left-1/2 flex flex-col w-max">
+            <div className=" bg-slate-900 bg-opacity-70 absolute top-full right-1/2 sm:left-1/2 flex flex-col w-max">
               <Link
                 href={"/blog#resources"}
                 className=" border-b-2 border-white py-2 px-6 text-center"

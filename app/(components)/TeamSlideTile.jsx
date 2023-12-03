@@ -32,15 +32,15 @@ const TeamSlideTile = ({
           src={image}
           alt={fullname}
           title={`${fullname}'s Photo`}
-          className={`h-[340px] w-[340px] rounded-lg aspect-square`}
+          className={`h-[340px] w-[340px] rounded-lg aspect-auto`}
         />
       </div>
       <div className=" flex flex-col gap-2">
         <div>
-          <h1 className="text-lg font-bold">{fullname}</h1>
+          <h1 className="text-base sm:text-lg font-bold">{fullname}</h1>
           <div className="flex flex-col sm:flex-row sm:justify-between ">
             <div className=" flex-1">
-              <h1 className="text-lg">{role}</h1>
+              <h1 className="text-base sm:text-lg">{role}</h1>
             </div>
             <div className=" flex justify-end items-center">
               {instagram && (
@@ -89,7 +89,7 @@ const TeamSlideTile = ({
             <Link
               href={`/about-us/${descriptionPageLink}`}
               // target="_blank"
-              className={`flex-1 w-full font-semibold bg-slate-900 p-2 text-white rounded-lg text-center ${SpaceBold.className}`}
+              className={`flex-1 w-full font-semibold bg-slate-900 p-2 text-white rounded-lg text-center text-base ${SpaceBold.className}`}
             >
               More about {firstname}
             </Link>
