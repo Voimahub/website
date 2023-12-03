@@ -118,6 +118,7 @@ export default function page() {
                   github={member.github}
                   youtube={member.youtube}
                   descriptionPageLink={member.descriptionPageLink}
+                  personalwebsitelink={member.personalWebsiteLink}
                 />
               ))}
             </div>
@@ -143,6 +144,7 @@ export default function page() {
                     github={member.github}
                     youtube={member.youtube}
                     descriptionPageLink={member.descriptionPageLink}
+                    personalwebsitelink={member.personalWebsiteLink}
                   />
                 </div>
               ))}
@@ -167,6 +169,7 @@ export default function page() {
                     github={member.github}
                     youtube={member.youtube}
                     descriptionPageLink={member.descriptionPageLink}
+                    personalwebsitelink={member.personalWebsiteLink}
                   />
                 </div>
               ))}
@@ -192,6 +195,7 @@ export default function page() {
                   youtube={member.youtube}
                   facebook={member.facebook}
                   descriptionPageLink={member.descriptionPageLink}
+                  personalwebsitelink={member.personalWebsiteLink}
                 />
               </div>
             ))}

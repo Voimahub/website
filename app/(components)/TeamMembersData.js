@@ -16,11 +16,12 @@ export const TeamMembersData = {
       firstname: "Prince",
       role: "Founder, CEO",
       description: "Hi there, my name is Prince",
-      linkedin: "https://linkedin",
-      instagram: "https://instagram",
+      linkedin: "",
+      instagram: "",
       twitter: "",
       youtube: "",
-      github: "https://github",
+      github: "",
+      personalWebsiteLink: "",
     },
   ],
   development: [
@@ -34,10 +35,10 @@ export const TeamMembersData = {
       linkedin: "https://linkedin.com/in/paul-boateng-932943204",
       instagram: "",
       twitter: "",
-      youtube: "https://youtube/@chhlyricsvideos5427",
-      github: "https://github/KP-Boateng",
+      youtube: "https://youtube.com/@chhlyricsvideos5427",
+      github: "https://github.com/KP-Boateng",
       descriptionPageLink: "paul-boateng",
-      personalWebsiteLInk: "https://kpboateng.me",
+      personalWebsiteLink: "https://kpboateng.vercel.app",
     },
     // {
     //   image: memberPhoto,
@@ -78,6 +79,7 @@ export const TeamMembersData = {
       twitter: "https://twitter.com/ethellll3",
       github: "https://github.com/Ethel3",
       youtube: "",
+      personalWebsiteLink: "",
     },
     {
       image: FiaDonkorPic,
@@ -92,6 +94,7 @@ export const TeamMembersData = {
       twitter: "https://twitter.com/fia_donkor",
       github: "",
       youtube: "",
+      personalWebsiteLink: "",
     },
   ],
   creativeresearch: [
@@ -108,6 +111,7 @@ export const TeamMembersData = {
       twitter: "https://twitter.com/AcaceaCherry",
       youtube: "",
       github: "",
+      personalWebsiteLink: "",
     },
     {
       image: SpendilovePic,
@@ -117,11 +121,12 @@ export const TeamMembersData = {
       role: "Research Team",
       description:
         "Student PA at University of Health and Allied Sciences. Passionate about learning, reasearch and the evolving landscape of healthcare.",
-      linkedin: "https://linkedin/spendilove-asamoah-54069020",
+      linkedin: "https://linkedin.com/spendilove-asamoah-54069020",
       instagram: "https://www.instagram.com/spendlikespendi/",
       twitter: "https://twitter.com/SpendiloveAsam2",
       youtube: "",
       github: "",
+      personalWebsiteLink: "",
     },
     {
       image: CindyPic,
@@ -132,10 +137,11 @@ export const TeamMembersData = {
       description:
         "Many people call me Cinderella although I am Cindy by birth. I am most passionate about the health of people that is why I devote my time to activities which foster good health. I am a voracious reader and arithmetic lady in the sense that I love mathematics as well. Public speaking is a generic trait of mine and during my leisure, I love to do crocheting.",
       linkedin: "",
-      instagram: "https://instagram/coseda_24",
+      instagram: "https://instagram.com/coseda_24",
       twitter: "hhttps://twitter.com/CindyOppon96551",
       youtube: "",
       github: "",
+      personalWebsiteLink: "",
     },
   ],
   media: [
@@ -148,11 +154,12 @@ export const TeamMembersData = {
       description:
         "I'm Isaac Nudanu, a medical student in University of Health and Allied Sciences. I'm a member of the media team here at Voima. I've always been fascinated about helping my community, friends and all who need my help. With my skills as a graphic designer and editor, I'm poised to put them to dilligent use in a collective ambition to build a sickle-cell free community! That's what we believe and stand for here at Voima! I believe in just that!",
       linkedin: "",
-      instagram: "https://instagram/isaacish_enala",
-      twitter: "https://twitter/isaacnudanuenala",
+      instagram: "https://instagram.com/isaacish_enala",
+      twitter: "https://twitter.com/isaacnudanuenala",
       youtube: "",
       github: "",
       facebook: "https://web.facebook.com/profile.php?id=61551782742003",
+      personalWebsiteLink: "",
     },
   ],
 };
